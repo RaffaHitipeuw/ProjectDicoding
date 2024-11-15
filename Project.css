@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+html{
+    scroll-behavior: smooth;
+}
+  .head{
+      background-color: black;
+      height: 798px;
+  }
+  /* NAVIGASI */
+.nav__cont {
+    padding-left: 60px;
+    position: fixed;
+    width: 30px;
+    height: 100vh;
+    z-index: 100;
+    background-color: black;
+    overflow:hidden;
+    transition:width .3s ease;
+    cursor:pointer;
+    box-shadow:4px 7px 10px rgba(0,0,0,.4);
+    &:hover {
+      width:200px;
+    }
+
+  }
+  
+  .nav {
+    list-style-type: none;
+    color:white;
+    &:first-child {
+      padding-top:1.5rem;
+    }
+  }
+  
+  .nav__items {
+    margin-top: 125px;
+    padding-bottom:4rem;
+    font-family: 'inter';
+     a {
+      margin-top: 5px;
+      position: relative;
+      display:block;
+      top:-35px;
+      padding-left:25px;
+      padding-right:15px;
+      transition:all .3s ease;
+      margin-left:25px;
+      margin-right:10px;
+      text-decoration: none;
+      color:white;
+      font-family: 'inter';
+      font-weight: 300;
+      font-size: 1.35em;
+       &:after {
+         content:'';
+         width: 100%;
+         height: 100%;
+         position: absolute;
+         top:0;
+         left:0;
+         border-radius:2px;
+         background:radial-gradient(circle at 94.02% 88.03%, #54a4ff, transparent 100%);
+         opacity:0;
+         transition:all .5s ease;
+         z-index: -10;
+       }
+    }
+    &:hover a:after {
+      opacity:1;
+    }
+     svg{
+      width:26px;
+      height:26px;
+      position: relative;
+      left:-25px;
+      cursor:pointer;
+      @media screen and(min-width:600px) {
+        width:32px;
+      height:32px;
+  left:-15px;
+      }
+    }
+  }
+
+  /* Upper */
+  .upper{
+      text-align: center;
+      padding-top: 230px;
+  }
+  .upper img{
+      border-radius: 50%;
+  }
+  .upper h1{
+      color: #EEEEEE;
+      font-family: inter;
+      margin-bottom: 5px;
+  }
+  .upper p{
+      color: #808080;
+      font-family: inter;
+      margin-bottom: 5px;
+  }
+  .upper button{
+      margin-top: 10px;
+          background-color: #FFF4B7;
+          border: none;
+          color: black;
+          font-family: inter;
+          padding: 15px 62px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;   
+          margin: 4px 2px;
+          cursor: pointer;
+          border-radius: 13px;
+          font-weight: bold;
+          font-size: 15px;
+  }
+  
+  .lower{
+    margin-top: 60px;
+    display: flex;
+    margin-left: 250px;
+  }
+
+  /* Sosial Media */
+  .lower{}
+  
+  /* instagram */
+  .lowerinsta{
+      display: flex;
+      margin-left: 100px;
+  }
+  .lowerinstaimage{
+   margin-right: 20px;
+  }
+  .lowerinstatext p{
+      color: white;
+      font-family: inter;
+      font-size: 18px;
+      margin-bottom: 5px;
+  }
+  .lowerinstatext a{
+      text-decoration: none;
+      color: #FFF4B7;
+      font-family: inter;
+      font-size: 15px;
+  }
+  /* Gmail */
+  .lowergmail{
+      display: flex;
+      margin-left: 100px;
+  }
+  .lowergmailimage{
+   margin-right: 20px;
+  }
+  .lowergmailtext p{
+      color: white;
+      font-family: inter;
+      font-size: 18px;
+      margin-bottom: 5px;
+  }
+  .lowergmailtext a{
+      text-decoration: none;
+      color: #FFF4B7;
+      font-family: inter;
+      font-size: 15px;
+  }
+  
+  /* X */
+  .lowerx{
+      display: flex;
+      margin-left: 100px;
+  }
+  .lowerximage{
+   margin-right: 20px;
+  }
+  .lowerxtext p{
+      color: white;
+      font-family: inter;
+      font-size: 18px;
+      margin-bottom: 5px;
+  }
+  .lowerxtext a{
+      text-decoration: none;
+      color: #FFF4B7;
+      font-family: inter;
+      font-size: 15px;
+  }
+
+/* Biodata */
+.biodata{
+    background-color: #F5F5F0;
+
+}
+.biodataflex{
+    display: flex;
+}
+.mainbiodata{
+    margin-top: 250px;
+    margin-left: 250px;
+}
+.mainbiodata h1{
+    color: black;
+    font-family: inter;
+    font-size: 30px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+.experience{
+    margin-top: 30px;
+}
+.experiencesatu{
+
+}
+.experiencesatuflex{
+    display: flex;
+}
+.experiencesatutext main{
+    margin-top: 14px;
+    font-family: inter;
+    font-size: 17px;
+    margin-bottom: 8px;
+
+}
+.experiencesatutext main span{
+    font-weight: bold;
+}
+.experiencesatutext p{
+    font-family: inter;
+    margin-left: 19px;
+}
+.experiencesatutext decs{
+    font-family: inter;
+    font-size: 13px;
+    color: grey;
+}
+.experiencesatu hr{
+    margin-top: 30px;
+    color: black;
+    width: 400px;
+}
+/* Aside */
+.aside{
+    margin-left: 400px;
+    margin-top: 250px;
+    width: 230px;
+}
+.aside aside h1{
+    color: black;
+    font-size: 18px;
+    font-family: inter;
+}
+.aside aside p{
+    margin-top: 10px;
+    color: black;
+    font-family: inter;
+    font-size: 15px;
+    font-weight: 400;
+}
+.aside aside img{
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+/* Sed */
+.sed{
+    margin-top: 90px;
+    margin-left: 640px;
+}
+.sed h1{
+    color: black;
+    font-family: inter;
+    font-size: 30px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
