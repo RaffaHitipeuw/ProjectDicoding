@@ -195,7 +195,6 @@ html{
 /* Biodata */
 .biodata{
     background-color: #F5F5F0;
-
 }
 .biodataflex{
     display: flex;
@@ -271,6 +270,7 @@ html{
 .sed{
     margin-top: 90px;
     margin-left: 640px;
+    padding-bottom: 30px;
 }
 .sed h1{
     color: black;
@@ -278,4 +278,139 @@ html{
     font-size: 30px;
     margin-bottom: 5px;
     font-weight: 700;
+}
+
+/* Footer */
+.footer{
+    background-color: black;
+}
+.footertext{
+    font-family: inter;
+    display: flex;
+    padding-top: 70px;
+}
+.footertextsatu{
+    margin-left: 150px;
+}
+.footertextsatu h1{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+.footertextsatu h2{
+    margin-top: 10px;
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 13px;
+    font-weight: 500;
+}
+.footertextdua{
+    margin-left: 80px;
+}
+.footertextdua h1{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+.footertextdua h2{
+    margin-top: 10px;
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 13px;
+    font-weight: 500;
+}
+.footertexttiga{
+    margin-left: 80px;
+}
+.footertexttiga h1{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+.footertexttiga h2{
+    margin-top: 10px;
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 13px;
+    font-weight: 500;
+}
+.footertextempat{
+    margin-left: 80px;
+}
+.footertextempat h1{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+.footertextempat h2{
+    margin-top: 10px;
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 13px;
+    font-weight: 500;
+}
+.footertextlima{
+    background-color: black;
+    border-radius: 10px;
+    width: 430px;
+    height: 100px;
+    margin-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    border-color: white;
+}
+.footertextlimaupper{
+    display: flex;
+}
+.footertextlimaupper h1{
+    color: white;
+    font-family: inter;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.footertextlimaupper h2{
+    color: grey;
+    font-family: inter;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.footertextlimaupper img{
+    width: 50px;
+    border-radius: 40px;
+    margin-left: 20px;
+}
+.footertextlimaupper span img{
+    width: 50px;
+    border-radius: 40px;
+    margin-left: 130px;
+}
+.footertextlimalower{
+    margin-top: 10px;
+}
+.footertextlimalower h2{
+    color: white;
+    font-family: inter;
+    margin-left: 20px;
+    font-size: 19px;
+    font-weight: 500;
+}
+.footercopyright{
+    margin-top: 40px;
+}
+.footercopyrightlower{
+    padding-top: 10px;
+    margin-left: 150px;
+    display: flex;
+}
+.footercopyrightlower h2{
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+    font-family: inter;
+    margin-right: 1000px;
+}
+.footercopyrightlower img{
+    width: 45px;
+    margin-top: 5px;
 }
